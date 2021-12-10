@@ -24,7 +24,7 @@ As tarefas desse projeto esta no Trello, no link: `https://trello.com/b/YkvShBeO
 
 ## GIT
 git status
-git add
+git add .
 git config --global user.email "email@email.com"
 git config --global user.name "Digite seu nome"
 git status
