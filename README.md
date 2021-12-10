@@ -21,3 +21,13 @@ As tarefas desse projeto esta no Trello, no link: `https://trello.com/b/YkvShBeO
 - Bootstrap 5.1.3
 - Font Awesome 4.7.0
 - Typescript 4.1.5
+
+## GIT
+git status
+git add
+git config --global user.email "email@email.com"
+git config --global user.name "Digite seu nome"
+git status
+git commit -m "Descrever o que foi feito"
+git pull
+git push
