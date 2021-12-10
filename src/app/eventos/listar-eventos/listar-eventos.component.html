@@ -1,1 +1,47 @@
-<p>listar-eventos works!</p>
+<p class="pt-4 ps-4 text-primary">
+	< <a routerLink="/eventos">Evento</a>
+</p>
+<p class="pt-2 ps-4 h3">Eventos</p>
+<div class="ps-4 pt-4">
+    <div class="bg-secondary">
+        <div class="row">
+            <div class="col-12">
+                <div class="pt-0 px-4">
+                    <form class="row">
+                        <div class="col-md-12">
+                            <label for="inputNomeEvento" class="form-label pt-3 fw-bold">Nome</label>
+                            <input type="text" class="form-control" id="inputNomeEvento" placeholder="Nome do Evento">
+                        </div>
+                        <div class="col-12 pt-3 px-3 d-md-flex justify-content-md-end">
+                            <button class="btn btn-primary">Pesquisar</button>
+                        </div>
+                        <div class="pt-3 px-3 pb-4">
+                            <table class="table table-light table-striped table-responsive table-bordered table-hover border-dark">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Nome do Evento</th>
+                                        <th>Traje</th>
+                                        <th>Data do evento</th>
+                                        <th>Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td> 
+                                            <i class="fa fa-pencil-square px-3" aria-hidden="true"></i>
+                                            <i class="fa fa-users px-3" aria-hidden="true"></i>
+                                            <i class="fa fa-trash-o px-3" aria-hidden="true"></i> 
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
